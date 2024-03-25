@@ -24,7 +24,6 @@ for ip4 in `seq 1 254`; do
 ping -c 1 $oct1.$oct2.$oct3.$ip4 | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &
 done
 exit
-fi
 elif [ $class == 16 ]; then
 echo "Class B Calculations"
 elif [ $class == 8 ]; then
