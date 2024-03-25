@@ -1,4 +1,4 @@
-Think code was originally created following Heath Adams's Practical Ethical Hacking course at https://academy.tcm-sec.com/
+This code was originally created following Heath Adams's Practical Ethical Hacking course at https://academy.tcm-sec.com/
 
 It's limiation is that only Class C IP addresses are able to be scanned.
 I wanted to expand upon it by enableing Class A and B scans.
